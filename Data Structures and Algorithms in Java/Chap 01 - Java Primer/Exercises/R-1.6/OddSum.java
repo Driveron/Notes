@@ -32,7 +32,7 @@ public class OddSum {
         int n = input.nextInt();
         
         int s = foo.oddSum(n);
-        System.out.println("The sum of all positive integers less than " +
+        System.out.println("The sum of all positive odd integers less than " +
         		"or equal to n is: " + s);
 	}
 
