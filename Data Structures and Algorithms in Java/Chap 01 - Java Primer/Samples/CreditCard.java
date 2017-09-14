@@ -1,4 +1,8 @@
-
+/**
+* A symple model for a consumer credit card
+* 
+* @author Michael T. Goodrich
+*/
 
 public class CreditCard {
     // Instance variables: 
