@@ -1,6 +1,8 @@
 # Ignore .project file created by HBuilder
 .project
 
-# Ignore Eclipse .classpath folder
+# Ignore Eclipse folders
 .classpath
+src/*
+bin/*
 
