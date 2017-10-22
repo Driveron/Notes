@@ -11,6 +11,7 @@ public class PredatoryCreditCard extends CreditCard {
     public PredatoryCreditCard (String cust, String bk, String acnt, int lim, double initialBal, double rate) {
         super(cust, bk, acnt, lim, initialBal);         // initialize superclass attributes
         apr = rate;
+        calls = 0;
     }
 
     // A new method for assessing monthly interest charges
