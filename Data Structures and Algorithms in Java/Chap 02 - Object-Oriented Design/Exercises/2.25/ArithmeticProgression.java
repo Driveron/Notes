@@ -4,8 +4,8 @@
  * the previous value. The implementation uses inheritance
  */
 
-public class ArithmeticProgression extends Progression<Long> {
-    protected long increment;
+public class ArithmeticProgression extends Progression<Long> { // generics should use class names like Long
+    protected long increment;                                  // instead of primitive type like long
 
     // Constructors
     public ArithmeticProgression () { this(1, 0); }  // using default progression
