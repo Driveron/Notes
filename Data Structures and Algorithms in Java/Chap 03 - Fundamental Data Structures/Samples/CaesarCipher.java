@@ -40,16 +40,4 @@ public class CaesarCipher {
         String answer = cipher.decode(coded);
         System.out.println("Message: " + answer);
     }
-
-	private static char[] extracted3(CaesarCipher cipher) {
-		return extracted2(cipher);
-	}
-
-	private static char[] extracted2(CaesarCipher cipher) {
-		return extracted(cipher);
-	}
-
-	private static char[] extracted(CaesarCipher cipher) {
-		return cipher.encoder;
-	}
 }
